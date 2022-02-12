@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+<script>// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyAMG8PFPmIH-gl-qKT8muYcnU0vpx8QgE0",
+    authDomain: "fir-d2693.firebaseapp.com",
+    projectId: "fir-d2693",
+    storageBucket: "fir-d2693.appspot.com",
+    messagingSenderId: "285629966251",
+    appId: "1:285629966251:web:042c2f92e759d60cc7d4ee",
+    measurementId: "G-Y9QXCFJY69"
+  };firebase.initializeApp(firebaseConfig);</script>
+
+    <title>Firebase example</title>
+  </head>
+  <body>
+    <h1>Firebase example</h1>
+    <pre id="data"></pre>
+    <script src="script.js"></script>
+  </body>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js';
+    import { getAnalytics } from 'https://www.gstatic.com/firebasejs/9.6.6/firebase-analytics.js';
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: 'AIzaSyAMG8PFPmIH-gl-qKT8muYcnU0vpx8QgE0',
+      authDomain: 'fir-d2693.firebaseapp.com',
+      projectId: 'fir-d2693',
+      storageBucket: 'fir-d2693.appspot.com',
+      messagingSenderId: '285629966251',
+      appId: '1:285629966251:web:042c2f92e759d60cc7d4ee',
+      measurementId: 'G-Y9QXCFJY69',
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</html>
